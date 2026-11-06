@@ -34,14 +34,18 @@
 - [ ] Confirm actual end-to-end behaviour by running the system and tests (not verified from README inspection).
 
 ### 02 — [GraphGuard](https://github.com/HuLaxx/GraphGuard) · **The Evidence Graph**
-**Concept:** Fraud casefile / network investigation with explainable decision paths.
 
-- [ ] Audit implementation and live-demo limitations.
-- [ ] Design original graph-investigation hero.
-- [ ] Map relationships → features → risk score → explanation → investigation.
-- [ ] Build a distinct casefile-style README with evidence-linked modules.
-- [ ] Add real screenshots or clearly labeled diagrams and review setup.
-- [ ] Verify README assets and remove unsupported performance claims.
+**Visual/editorial pass published.** [Open redesigned README](https://github.com/HuLaxx/GraphGuard) · [Detailed checklist](https://github.com/HuLaxx/GraphGuard/blob/main/docs/CREATIVE_CHECKLIST.md)
+
+**Concept:** A forensic investigation dossier: dark network casefile plus a contrasting paper evidence trail. Designed around the actual code paths and the question: *what does this transaction connect to?*
+
+- [x] Audit source, mock-data cases, documented integration boundaries and historical evidence.
+- [x] Create original animated [casefile hero](https://github.com/HuLaxx/GraphGuard/blob/main/docs/assets/evidence-graph-hero.svg).
+- [x] Create contrasting [evidence trail](https://github.com/HuLaxx/GraphGuard/blob/main/docs/assets/investigation-trail.svg) from intake → graph → XGBoost → SHAP → investigation.
+- [x] Publish a bespoke investigative README with linked implementation evidence and original demo GIF.
+- [x] Explicitly distinguish mock/frontend cases, dated testing evidence, optional local stack and planned deployment.
+- [x] Verify both SVG files and all 33 local README links exist.
+- [ ] Validate actual GitHub mobile/desktop rendering and current CI, live demo and full local integration.
 
 ### 03 — [FleetFlow](https://github.com/HuLaxx/FleetFlow) · **The Dispatch Atlas**
 **Concept:** Operations map / control tower with route optimization and live events.
