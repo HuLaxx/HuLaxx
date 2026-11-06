@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/rahul-hero.svg" width="100%" alt="Animated Rahul Khanke banner" />
+<a href="https://portfolio.hulax.uk/arcade" title="Enter the HuLaX arcade"><img src="./assets/rahul-hero.svg" width="100%" alt="Rahul Khanke animated developer banner — enter the HuLaX arcade" /></a>
 
 ### AI Engineer · Data Scientist · Full-Stack Engineer
 
@@ -13,6 +13,8 @@
 [![Email](https://img.shields.io/badge/Email-Say%20hello-0f766e?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rahulkhanke786@gmail.com)
 
 </div>
+
+**[ABOUT](#-about-me)** &nbsp; · &nbsp; **[BUILDS](#-featured-projects)** &nbsp; · &nbsp; **[PLAY SNAKE](#-play-neural-snake)** &nbsp; · &nbsp; **[ACTIVITY](#-github-contributions)** &nbsp; · &nbsp; **[CONNECT](#lets-build-something-meaningful)**
 
 ---
 
@@ -76,17 +78,43 @@ I'm **Rahul Khanke**, a data scientist and software engineer building at the int
 <img src="https://skillicons.dev/icons?i=python,pytorch,fastapi,postgres,kafka,redis,nextjs,react,ts,tailwind,threejs,docker,aws,git&perline=7" alt="Technology icons" />
 </div>
 
+## 🕹️ Play Neural Snake
+
+<div align="center">
+
+<a href="https://portfolio.hulax.uk/arcade" title="Launch Neural Snake — a playable browser game">
+  <img src="./assets/neural-snake.svg" width="100%" alt="Animated neon snake traversing an arcade grid — click to play the browser game" />
+</a>
+
+### 🎮 An Easter egg you can actually play
+
+**Arrow keys / WASD** to move · **Space** to pause · **Touch controls** on mobile
+
+A tiny interactive experiment with real game rules, collision detection, score tracking, a local best score and an increasingly fast snake.
+
+**[▶ Launch the arcade](https://portfolio.hulax.uk/arcade)** &nbsp; · &nbsp; [View the game source](https://github.com/HuLaxx/my-portfolio/tree/master/src/app/arcade)
+
+<sub>The artwork above is an original looping arcade illustration; the actual game opens in the browser.</sub>
+
+</div>
+
 ## 🧭 Engineering approach
 
 I care about **evidence-backed engineering, reproducible experiments and readable systems**. A convincing project is more than a demo: it should explain its data flow, trade-offs, architecture and what is truly running. Some of my project websites offer lighter hosted experiences, while the full infrastructure is documented for local execution.
 
 ## 🐍 GitHub contributions
 
-An automated GitHub Actions workflow generates my contribution-snake animation daily. The animation will be displayed here once the workflow has successfully published its output.
+<div align="center">
 
-<!-- CONTRIBUTION_SNAKE_START -->
-<!-- <div align="center"><img src="https://raw.githubusercontent.com/HuLaxx/HuLaxx/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Animated contribution graph" /></div> -->
-<!-- CONTRIBUTION_SNAKE_END -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HuLaxx/HuLaxx/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HuLaxx/HuLaxx/output/github-contribution-grid-snake.svg" />
+  <img src="https://raw.githubusercontent.com/HuLaxx/HuLaxx/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Animated snake; the scheduled workflow will update it using real GitHub contributions" />
+</picture>
+
+<sub>Neon snake preview is visible immediately. A scheduled GitHub Action replaces it with a contribution-based animation after a successful run.</sub>
+
+</div>
 
 ---
 
