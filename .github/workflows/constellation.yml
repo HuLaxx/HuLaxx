@@ -1,0 +1,43 @@
+name: Refresh living project constellation
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "13 4 * * *"
+  push:
+    branches: [main]
+    paths:
+      - "scripts/render_constellation.py"
+      - ".github/workflows/constellation.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-project-constellation
+  cancel-in-progress: false
+
+jobs:
+  render:
+    name: Refresh public repository signals
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out profile source
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Generate the animated constellation
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/render_constellation.py
+      - name: Publish constellation to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "chore: refresh public project signals"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
