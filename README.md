@@ -105,8 +105,8 @@ The connections tell the story: **streaming data → intelligent decisions → t
 <td width="50%" valign="top">
   <sub>06 / PRODUCT FOUNDATIONS</sub>
   <h3>📚 <a href="https://github.com/HuLaxx/Xchange">Xchange</a></h3>
-  <p>A student-focused textbook exchange concept, with browsing, user accounts and backend integration.</p>
-  <p><code>React</code> <code>Node.js</code> <code>Databases</code></p>
+  <p>An early textbook-exchange prototype. A new functional, local-first marketplace rebuild is being tested before repository publication.</p>
+  <p><code>React (legacy)</code> <code>Marketplace rebuild</code></p>
   <a href="https://github.com/HuLaxx/Xchange">Explore repository ↗</a>
 </td>
 </tr>
@@ -114,16 +114,16 @@ The connections tell the story: **streaming data → intelligent decisions → t
 <td width="50%" valign="top">
   <sub>07 / FULL-STACK EXPLORATION</sub>
   <h3>🔐 <a href="https://github.com/HuLaxx/TestVeh">TestVeh</a></h3>
-  <p>An earlier full-stack project exploring user authentication, REST-backed application flows and component-based interfaces.</p>
-  <p><code>Django</code> <code>Python</code> <code>React</code></p>
+  <p>An earlier Django/React authentication prototype, now being developed into a local-first vehicle-record and registration-review application.</p>
+  <p><code>Django (legacy)</code> <code>Vehicle registry rebuild</code></p>
   <a href="https://github.com/HuLaxx/TestVeh">Explore repository ↗</a>
 </td>
 <td width="50%" valign="top">
   <sub>08 / RESEARCH & FOUNDATIONS</sub>
-  <h3>🔭 The early experiments</h3>
-  <p>Research notes and foundational programming explorations. Small repositories, but part of the journey.</p>
-  <p><a href="https://github.com/HuLaxx/BCPD"><b>BCPD</b></a> · Bayesian change-point detection</p>
-  <p><a href="https://github.com/HuLaxx/Calendar-In-C"><b>Calendar in C</b></a> · Programming fundamentals</p>
+  <h3>📉 <a href="https://github.com/HuLaxx/BCPD">BCPD · Regime Shift Lab</a></h3>
+  <p>A working browser-based Bayesian change-point laboratory with time-series import, posterior plots, editable model assumptions and exportable results.</p>
+  <p><code>Bayesian inference</code> <code>JavaScript</code> <code>Statistics</code></p>
+  <a href="https://github.com/HuLaxx/BCPD">Explore the source and run locally ↗</a>
 </td>
 </tr>
 </table>
