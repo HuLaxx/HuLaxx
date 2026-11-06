@@ -91,14 +91,19 @@
 - [x] Verify 13 local README links, 9 checklist links, four poster assets, 36 CSS module classes and both new SVG structures.
 - [ ] Run lint/build and verify the deployed Studio route, mobile rendering, accessibility, performance and media licenses.
 
-### 06 — [BCPD](https://github.com/HuLaxx/BCPD) · **Regime Shift Observatory**
-**Concept:** Statistical research notebook / changepoint timeline.
+### 06 — [BCPD](https://github.com/HuLaxx/BCPD) · **Regime Shift Laboratory**
 
-- [ ] Inspect files and assess whether executable research code or results are present.
-- [ ] Create clearly labeled illustrative changepoint SVG.
-- [ ] Document research question, methodology, datasets and limitations **only where evidenced**.
-- [ ] Add reproducibility steps when runnable source becomes available.
-- [ ] Validate scientific claims; never invent results or benchmarks.
+**Functional application committed and independently deployed.** [Source code](https://github.com/HuLaxx/BCPD) · [Live BCPD laboratory](https://hulax-bcpd-regime-lab.vercel.app)
+
+**Concept:** An interactive Bayesian research workbench, not just an infographic or research poster.
+
+- [x] Replace the previously empty repo with a complete static application on main.
+- [x] Implement Gaussian-mean Bayesian online change-point detection, normalized run-length posterior and a change-point probability plot.
+- [x] Add editable and CSV observations, seeded sample data, visualizations and result CSV export.
+- [x] Commit Node unit tests, local-running instructions and a Vercel static deployment configuration.
+- [x] Deploy directly to Vercel; deployment dpl_BUTyrqEiyQsPQm7KnVvePXK8kkWE reported READY.
+- [ ] Independently exercise all user flows in a live browser and validate current scientific test outcomes.
+- [ ] Connect the Vercel project to GitHub for future automatic redeploys; GitHub Login Connection is currently missing.
 
 ### 07 — [HuLaxx](https://github.com/HuLaxx/HuLaxx) · **The Constellation Hub**
 **Concept:** Your public-facing personal identity, linking the distinct project worlds.
@@ -109,27 +114,30 @@
 - [ ] Verify automated constellation updates and rendering after each redesign.
 - [ ] Final cross-repository accessibility / coherence pass.
 
-## More owned repos — connection required for direct edits
+## Other applications / functional rebuilds
 
-These appear on the public owner listing but **are not currently among repositories accessible to the GitHub integration**. Do not mark any edits complete without adding them to the installation.
+### 08 — [Xchange](https://github.com/HuLaxx/Xchange) · **Pass the Story On**
 
-### 08 — [Xchange](https://github.com/HuLaxx/Xchange) · **Campus Exchange**
-- [ ] Grant repository access for edits.
-- [ ] Audit source and define marketplace identity.
-- [ ] Produce original discovery / exchange workflow art and README.
-- [ ] Verify links and avoid claiming unimplemented payment flows.
+- [x] Audit legacy React/Express frontend and local MySQL/MongoDB assumptions.
+- [x] Build a separate functional local-first book marketplace with listing forms, filters, favourites, validation and request drafts.
+- [x] Run the local model/unit tests (2 passing).
+- [x] Prepare standalone Vercel static deployment settings and source package.
+- [ ] Publish files into the original Xchange repo; GitHub integration currently rejects write operations (403).
+- [ ] Deploy to Vercel and validate an actual public URL.
+- [ ] Add authenticated shared storage and messaging before calling this a multi-user service.
 
-### 09 — [TestVeh](https://github.com/HuLaxx/TestVeh) · **The Systems Workshop**
-- [ ] Grant repository access for edits.
-- [ ] Inspect Django / React authentication modules and dependencies.
-- [ ] Create a systems-lab architecture illustration and technical README.
-- [ ] Audit tracked build artifacts, local environments and sensitive files.
+### 09 — [TestVeh](https://github.com/HuLaxx/TestVeh) · **Vehicle Registry Studio**
 
-### 10 — [Calendar-In-C](https://github.com/HuLaxx/Calendar-In-C) · **Retro Terminal**
-- [ ] Grant repository access for edits.
-- [ ] Inspect source (may be empty) before writing features.
-- [ ] Create ANSI-terminal-inspired illustration.
-- [ ] Add actual compilation or usage examples if source supports them.
+- [x] Audit the legacy Django/React authentication app and tracked virtual environment.
+- [x] Build a new functional local-first vehicle registry with record CRUD, search, validations, document review statuses and CSV export.
+- [x] Run local model/unit tests (4 passing).
+- [x] Prepare Vercel static deployment settings and source package.
+- [ ] Publish into the original TestVeh repo; GitHub integration currently rejects write operations (403).
+- [ ] Deploy to Vercel and validate an actual public URL.
+- [ ] Add identity checks, server-side authorization and audit trails before using real registration data.
+
+**Calendar-In-C has been removed from the public makeover/showcase plan.** Its repository has not been deleted.
+
 
 ---
 
