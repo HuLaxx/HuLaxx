@@ -48,14 +48,18 @@
 - [ ] Validate actual GitHub mobile/desktop rendering and current CI, live demo and full local integration.
 
 ### 03 — [FleetFlow](https://github.com/HuLaxx/FleetFlow) · **The Dispatch Atlas**
-**Concept:** Operations map / control tower with route optimization and live events.
 
-- [ ] Audit roadmap against actual implementation, particularly planned Kafka/Flink/optimization features.
-- [ ] Create original route-and-telemetry hero.
-- [ ] Show order → constraints → solver → proposed route → feedback data flow.
-- [ ] Rewrite README around operational decisions and clear local-vs-hosted states.
-- [ ] Verify commands and qualify unsubstantiated efficiency metrics.
-- [ ] Inspect asset rendering and commit only documented improvements.
+**Visual/editorial pass published.** [Open redesigned README](https://github.com/HuLaxx/FleetFlow) · [Detailed checklist](https://github.com/HuLaxx/FleetFlow/blob/main/docs/CREATIVE_CHECKLIST.md)
+
+**Concept:** A dispatch operations log with an animated city-grid route study and a paper-style routing decision sheet. No recycled casefile or observatory layout.
+
+- [x] Audit solver and FastAPI route proposal, frontend tRPC bridge, sample map geometry, WebSocket/event modules and local-readiness criteria.
+- [x] Publish original [animated Dispatch Atlas hero](https://github.com/HuLaxx/FleetFlow/blob/main/docs/dispatch-atlas.svg).
+- [x] Publish original [dispatch decision worksheet](https://github.com/HuLaxx/FleetFlow/blob/main/docs/dispatch-decision-sheet.svg) centered on manifest → constraints → route proposal.
+- [x] Rewrite README as a dispatcher's operational story with evidence-linked implementation, rather than a technology checklist.
+- [x] Replace unsupported efficiency percentages/latency claims and explicitly document demo fixtures, optional local services and route preview.
+- [x] Confirm both SVGs have sound tag structure and all 34 local README references exist.
+- [ ] Run tests/local validation and independently inspect mobile GitHub rendering and the hosted demo.
 
 ### 04 — [Shiftify](https://github.com/HuLaxx/Shiftify) · **Your Music, Your Data**
 **Concept:** Music library as a constellation of records, not a streaming-service clone.
