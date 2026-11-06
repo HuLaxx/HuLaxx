@@ -100,7 +100,7 @@ The connections tell the story: **streaming data → intelligent decisions → t
   <h3>🌐 <a href="https://github.com/HuLaxx/my-portfolio">Interactive Portfolio</a></h3>
   <p>A personal digital experience featuring 3D visuals, expressive motion, AI-assisted interaction and detailed project case studies.</p>
   <p><code>Next.js</code> <code>React</code> <code>Three.js</code></p>
-  <a href="https://github.com/HuLaxx/my-portfolio">Source code</a> · <a href="https://portfolio.hulax.uk/">Visit portfolio ↗</a>
+  <a href="https://github.com/HuLaxx/my-portfolio">Source code</a> · <a href="https://portfolio.hulax.uk/">Visit portfolio ↗</a> · <a href="https://portfolio.hulax.uk/studio">Behind the build ↗</a>
 </td>
 <td width="50%" valign="top">
   <sub>06 / PRODUCT FOUNDATIONS</sub>
