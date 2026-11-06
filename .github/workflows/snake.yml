@@ -1,32 +1,39 @@
-name: Update contribution snake
+name: Animate GitHub contributions
 
 on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * *"
   push:
     branches: [main]
     paths:
-      - '.github/workflows/snake.yml'
-  schedule:
-    - cron: '17 3 * * *'
-  workflow_dispatch:
+      - ".github/workflows/snake.yml"
 
 permissions:
   contents: write
 
+concurrency:
+  group: snake-generation
+  cancel-in-progress: false
+
 jobs:
-  snake:
+  generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      - name: Generate animated contribution graph
+      - name: Generate neon contribution snakes (dark and light)
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: HuLaxx
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - name: Publish to output branch
-        uses: peaceiris/actions-gh-pages@v4
+            dist/github-contribution-grid-snake.svg?color_snake=#24b6b5&color_dots=#ebf3fa,#c5deee,#9fc9e0,#5ca5bd,#198ca7
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#77f8d8&color_dots=#0b1528,#163a51,#215a75,#287d91,#48c6bd
+
+      - name: Publish both animations to the output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          publish_branch: output
-          force_orphan: true
+          target_branch: output
+          build_dir: dist
+          commit_message: "chore: refresh contribution snake"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
