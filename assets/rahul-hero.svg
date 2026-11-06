@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="t d">
+<title id="t">Rahul Khanke — AI Engineering and Data Science</title>
+<desc id="d">Animated midnight-blue developer banner with moving data paths and glowing nodes.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#060e22"/><stop offset=".55" stop-color="#10172c"/><stop offset="1" stop-color="#0c1927"/></linearGradient>
+<linearGradient id="a" x1="0" x2="1"><stop stop-color="#6ce8fb"/><stop offset=".53" stop-color="#a78bfa"/><stop offset="1" stop-color="#69efbf"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#797dff" stop-opacity=".23"/><stop offset="1" stop-color="#797dff" stop-opacity="0"/></radialGradient>
+<pattern id="g" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#94b9e4" stroke-opacity=".12"/></pattern>
+<clipPath id="clip"><rect width="1200" height="320" rx="20"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+<rect width="1200" height="320" fill="url(#bg)"/>
+<rect width="1200" height="320" fill="url(#g)"/>
+<circle cx="925" cy="154" r="246" fill="url(#halo)"><animate attributeName="r" values="220;290;220" dur="8s" repeatCount="indefinite"/></circle>
+<path d="M0 291H1200" stroke="url(#a)" stroke-opacity=".45" stroke-width="2"/>
+<path d="M0 26H1200" stroke="#a4baff" stroke-opacity=".15"/>
+<g fill="none" stroke="url(#a)" stroke-width="2" stroke-linecap="round">
+<path d="M699 76h92l45 39h102l55 48h156" stroke-dasharray="8 12" opacity=".8"><animate attributeName="stroke-dashoffset" from="0" to="-100" dur="7s" repeatCount="indefinite"/></path>
+<path d="M710 249h117l44-43h111l67-91h128" stroke-dasharray="6 13" opacity=".64"><animate attributeName="stroke-dashoffset" from="0" to="114" dur="9s" repeatCount="indefinite"/></path>
+<path d="M810 42l69 31 71-31 93 38 127-39" opacity=".19"/>
+<path d="M784 277l107-30 90 26 105-29 98 24" opacity=".18"/>
+<circle cx="943" cy="160" r="84" stroke-width="1.2" opacity=".3" stroke-dasharray="4 7"><animateTransform attributeName="transform" type="rotate" from="0 943 160" to="360 943 160" dur="35s" repeatCount="indefinite"/></circle>
+<circle cx="943" cy="160" r="118" stroke-width=".8" opacity=".15" stroke-dasharray="3 8"/>
+</g>
+<g fill="#73e7ff">
+<circle cx="791" cy="76" r="4"><animate attributeName="opacity" values=".3;1;.3" dur="2.7s" repeatCount="indefinite"/></circle>
+<circle cx="938" cy="115" r="4"><animate attributeName="opacity" values=".3;1;.3" dur="2.3s" begin=".5s" repeatCount="indefinite"/></circle>
+<circle cx="982" cy="206" r="4"><animate attributeName="opacity" values=".3;1;.3" dur="3.2s" begin="1s" repeatCount="indefinite"/></circle>
+<circle cx="1049" cy="115" r="4"><animate attributeName="opacity" values=".3;1;.3" dur="2.5s" begin="1.3s" repeatCount="indefinite"/></circle>
+</g>
+<g transform="translate(943 160)" fill="none">
+<circle r="44" stroke="#91e7ff" stroke-opacity=".49"/>
+<circle r="20" stroke="#b8a2ff" stroke-opacity=".68"/>
+<path d="M-52 0H52M0 -52V52" stroke="#97bdff" stroke-opacity=".27"/>
+<circle r="6" fill="#74ecff"><animate attributeName="r" values="5;10;5" dur="3s" repeatCount="indefinite"/></circle>
+</g>
+<g font-family="Arial, Helvetica, sans-serif">
+<rect x="68" y="56" width="164" height="27" rx="13.5" fill="#5acbd8" fill-opacity=".12" stroke="#5acbd8" stroke-opacity=".5"/>
+<circle cx="85" cy="69" r="4" fill="#74f5c0"><animate attributeName="opacity" values=".3;1;.3" dur="2s" repeatCount="indefinite"/></circle>
+<text x="99" y="75" fill="#b4f8e5" font-size="12" font-weight="700" letter-spacing="1.7">HELLO, WORLD</text>
+<text x="65" y="160" fill="#f6f8ff" font-size="55" font-weight="700" letter-spacing="-1.5">Rahul Khanke</text>
+<rect x="69" y="178" width="370" height="3" rx="2" fill="url(#a)"/>
+<text x="69" y="215" fill="#c5ceee" font-size="18" font-weight="600" letter-spacing="1.6">AI ENGINEER  /  DATA SCIENTIST</text>
+<text x="69" y="246" fill="#9cafd1" font-size="16">Intelligent systems. Real-world impact. Thoughtful design.</text>
+<text x="69" y="305" fill="#8398b9" font-size="11" letter-spacing="2.4">PYTHON  ·  ML  ·  NEXT.JS  ·  DATA ENGINEERING</text>
+</g>
+</g></svg>
