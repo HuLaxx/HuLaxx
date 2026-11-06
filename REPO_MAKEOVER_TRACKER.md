@@ -61,15 +61,20 @@
 - [x] Confirm both SVGs have sound tag structure and all 34 local README references exist.
 - [ ] Run tests/local validation and independently inspect mobile GitHub rendering and the hosted demo.
 
-### 04 — [Shiftify](https://github.com/HuLaxx/Shiftify) · **Your Music, Your Data**
-**Concept:** Music library as a constellation of records, not a streaming-service clone.
+### 04 — [Shiftify](https://github.com/HuLaxx/Shiftify) · **The Music Passport**
 
-- [ ] Inspect current frontend and supported export workflows.
-- [ ] Create refined kinetic music-library banner.
-- [ ] Explain how privacy, sessions and exports actually work.
-- [ ] Add readable product journey and real screenshots where available.
-- [ ] Review privacy claims and README install instructions.
-- [ ] Validate links and final visual layout.
+**Visual/editorial pass published.** [Open redesigned README](https://github.com/HuLaxx/Shiftify) · [Detailed checklist](https://github.com/HuLaxx/Shiftify/blob/master/docs/CREATIVE_CHECKLIST.md)
+
+**Concept:** A playful vinyl-record sleeve and fold-out liner notes, focused on **portability and honest trust boundaries**—not a recycled dashboard.
+
+- [x] Audit Next.js import/normalize/review/CSV reporting, YouTube Music account adapter, SQLite and optional party mode.
+- [x] Publish custom [animated record sleeve](https://github.com/HuLaxx/Shiftify/blob/master/docs/music-passport.svg).
+- [x] Publish custom [liner-notes workflow](https://github.com/HuLaxx/Shiftify/blob/master/docs/liner-notes.svg) distinguishing server-backed imports from cookie-based transfer.
+- [x] Publish an original README with real source links and clearly qualified feature status.
+- [x] Correct inaccurate browser-only/privacy marketing and show a visible cookie-handling warning in the transfer interface.
+- [x] Verify all 13 local README paths and both SVGs' basic accessibility and syntax.
+- [x] Add Shiftify to the portfolio projects and publish a bespoke illustrated case study in the portfolio source.
+- [ ] Independently verify deployment and builds; security audit/auth on import and transfer APIs remains essential.
 
 ### 05 — [my-portfolio](https://github.com/HuLaxx/my-portfolio) · **HuLaX Experiments**
 **Concept:** A digital design laboratory and architecture atlas.
