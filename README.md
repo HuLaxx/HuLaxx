@@ -14,7 +14,7 @@
 
 </div>
 
-**[ABOUT](#-about-me)** &nbsp; · &nbsp; **[CONSTELLATION](#-living-project-constellation)** &nbsp; · &nbsp; **[PROJECTS](#-featured-projects)** &nbsp; · &nbsp; **[STACK](#-technical-toolkit)** &nbsp; · &nbsp; **[CONNECT](#lets-build-something-meaningful)**
+**[ABOUT](#-about-me)** &nbsp; · &nbsp; **[APPROACH](#-engineering-approach)** &nbsp; · &nbsp; **[CONSTELLATION](#-living-project-constellation)** &nbsp; · &nbsp; **[PROJECTS](#-featured-projects)** &nbsp; · &nbsp; **[LAB](#-beyond-the-constellation)** &nbsp; · &nbsp; **[CONNECT](#lets-build-something-meaningful)**
 
 ---
 
@@ -27,6 +27,16 @@ I'm **Rahul Khanke**, a data scientist and software engineer building at the int
 - 🧠 Interested in agentic AI, RAG, time-series forecasting, graph analytics, explainable ML and streaming systems.
 - 🛠️ Working across Python, FastAPI, Kafka, SQL, TypeScript, React and Next.js.
 - 🌐 For detailed case studies, visit [my interactive portfolio](https://portfolio.hulax.uk/).
+
+## 🧭 Engineering approach
+
+> **Start with a real problem. Build with evidence. Make the result useful.**
+
+| 01 · Understand | 02 · Engineer | 03 · Communicate |
+| :--- | :--- | :--- |
+| Question assumptions, explore the data and define what success means. | Design reliable pipelines, test models, document trade-offs and validate behaviour. | Turn complex systems into understandable interfaces, case studies and reproducible demos. |
+
+I value **clarity over hype**: what works, what is experimental and what still needs infrastructure should always be easy to tell apart.
 
 ## ✦ Living Project Constellation
 
@@ -79,9 +89,44 @@ The connections tell the story: **streaming data → intelligent decisions → t
 </tr>
 </table>
 
-### More from my workspace
+### 🛰️ Beyond the constellation
 
-**[Interactive portfolio](https://github.com/HuLaxx/my-portfolio)** · **[Xchange](https://github.com/HuLaxx/Xchange)** (textbook exchange) · **[TestVeh](https://github.com/HuLaxx/TestVeh)** (Django and React) · **[Calendar in C](https://github.com/HuLaxx/Calendar-In-C)** · **[BCPD](https://github.com/HuLaxx/BCPD)** (Bayesian change-point detection research repository)
+*The smaller builds, earlier experiments and ideas that shaped how I engineer today.*
+
+<table>
+<tr>
+<td width="50%" valign="top">
+  <sub>05 / CREATIVE ENGINEERING</sub>
+  <h3>🌐 <a href="https://github.com/HuLaxx/my-portfolio">Interactive Portfolio</a></h3>
+  <p>A personal digital experience featuring 3D visuals, expressive motion, AI-assisted interaction and detailed project case studies.</p>
+  <p><code>Next.js</code> <code>React</code> <code>Three.js</code></p>
+  <a href="https://github.com/HuLaxx/my-portfolio">Source code</a> · <a href="https://portfolio.hulax.uk/">Visit portfolio ↗</a>
+</td>
+<td width="50%" valign="top">
+  <sub>06 / PRODUCT FOUNDATIONS</sub>
+  <h3>📚 <a href="https://github.com/HuLaxx/Xchange">Xchange</a></h3>
+  <p>A student-focused textbook exchange concept, with browsing, user accounts and backend integration.</p>
+  <p><code>React</code> <code>Node.js</code> <code>Databases</code></p>
+  <a href="https://github.com/HuLaxx/Xchange">Explore repository ↗</a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+  <sub>07 / FULL-STACK EXPLORATION</sub>
+  <h3>🔐 <a href="https://github.com/HuLaxx/TestVeh">TestVeh</a></h3>
+  <p>An earlier full-stack project exploring user authentication, REST-backed application flows and component-based interfaces.</p>
+  <p><code>Django</code> <code>Python</code> <code>React</code></p>
+  <a href="https://github.com/HuLaxx/TestVeh">Explore repository ↗</a>
+</td>
+<td width="50%" valign="top">
+  <sub>08 / RESEARCH & FOUNDATIONS</sub>
+  <h3>🔭 The early experiments</h3>
+  <p>Research notes and foundational programming explorations. Small repositories, but part of the journey.</p>
+  <p><a href="https://github.com/HuLaxx/BCPD"><b>BCPD</b></a> · Bayesian change-point detection</p>
+  <p><a href="https://github.com/HuLaxx/Calendar-In-C"><b>Calendar in C</b></a> · Programming fundamentals</p>
+</td>
+</tr>
+</table>
 
 ## 🧰 Technical toolkit
 
@@ -95,10 +140,6 @@ The connections tell the story: **streaming data → intelligent decisions → t
 <div align="center">
 <img src="https://skillicons.dev/icons?i=python,pytorch,fastapi,postgres,kafka,redis,nextjs,react,ts,tailwind,threejs,docker,aws,git&perline=7" alt="Technology icons" />
 </div>
-
-## 🧭 Engineering approach
-
-I care about **evidence-backed engineering, reproducible experiments and readable systems**. A convincing project is more than a demo: it should explain its data flow, trade-offs, architecture and what is truly running. Some of my project websites offer lighter hosted experiences, while the full infrastructure is documented for local execution.
 
 
 ---
