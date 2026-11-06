@@ -19,15 +19,18 @@
 ## Repo-by-repo progress
 
 ### 01 — [Sentinance](https://github.com/HuLaxx/Sentinance) · **The Signal Atlas**
+
+**Visual/documentation pass published.** [Open refreshed README](https://github.com/HuLaxx/Sentinance) · [Detailed checklist](https://github.com/HuLaxx/Sentinance/blob/main/docs/CREATIVE_CHECKLIST.md)
 **Concept:** An AI market observatory: radar, streaming signals, prediction paths, and reasoning. Palette: midnight / sea-glass cyan / restrained amber.
 
 - [x] Audit README, app stack, technical status inventory, existing artwork and architecture assets.
 - [x] Establish bespoke **Signal Atlas** creative direction.
 - [x] Find original [animated hero](https://github.com/HuLaxx/Sentinance/blob/main/docs/assets/signal-atlas-hero.svg) and [system map](https://github.com/HuLaxx/Sentinance/blob/main/docs/assets/signal-architecture.svg) already in repository.
-- [ ] Publish the redesigned README with both local assets and clear links.
-- [ ] Replace unsupported success statistics with evidence links or explicit verification requirements.
-- [ ] Add transparent deployed-vs-local-vs-optional capability status.
-- [ ] Review rendered visuals, README links and workflow status.
+- [x] Publish the redesigned README with both local assets and clear links.
+- [x] Replace unsupported success statistics with evidence links or explicit verification requirements.
+- [x] Add transparent deployed-vs-local-vs-optional capability status.
+- [x] Verify README assets and all 34 local Markdown link targets exist.
+- [ ] Review browser rendering and workflow status; these are not yet verified.
 - [ ] Confirm actual end-to-end behaviour by running the system and tests (not verified from README inspection).
 
 ### 02 — [GraphGuard](https://github.com/HuLaxx/GraphGuard) · **The Evidence Graph**
