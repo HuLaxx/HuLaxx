@@ -76,14 +76,20 @@
 - [x] Add Shiftify to the portfolio projects and publish a bespoke illustrated case study in the portfolio source.
 - [ ] Independently verify deployment and builds; security audit/auth on import and transfer APIs remains essential.
 
-### 05 — [my-portfolio](https://github.com/HuLaxx/my-portfolio) · **HuLaX Experiments**
-**Concept:** A digital design laboratory and architecture atlas.
+### 05 — [my-portfolio](https://github.com/HuLaxx/my-portfolio) · **HuLaX Studio / The Making Of**
 
-- [ ] Audit pages, constellation, interaction features and existing README.
-- [ ] Build editorial visual identity emphasizing selected experiments.
-- [ ] Create truthful frontend/CMS/AI capability diagram.
-- [ ] Improve navigation and case study links; remove stale references.
-- [ ] Verify visual assets, build and deployed route (if accessible).
+**Visual/editorial pass published.** [Studio journal source](https://github.com/HuLaxx/my-portfolio/tree/master/src/app/studio) · [Live-route target](https://portfolio.hulax.uk/studio) · [Detailed checklist](https://github.com/HuLaxx/my-portfolio/blob/master/docs/CREATIVE_CHECKLIST.md)
+
+**Concept:** An open field journal and animated editorial contact sheet explaining how the portfolio is constructed—not another product dashboard or a generic README.
+
+- [x] Audit the homepage, case studies, Three.js and motion layers, optional Sanity content, AI endpoint and GitHub integration.
+- [x] Create the original [Studio Contact Sheet](https://github.com/HuLaxx/my-portfolio/blob/master/public/studio/studio-contact-sheet.svg) and [exploded architecture study](https://github.com/HuLaxx/my-portfolio/blob/master/public/studio/exploded-system.svg).
+- [x] Publish a responsive **Making Of** studio page, link it from Projects and rewrite the GitHub README as a creative journal.
+- [x] Curate four distinct original SVG project posters in their portfolio case studies.
+- [x] Correct stale graduation/Next.js/LinkedIn claims in README, align canonical metadata and remove misleading AI terminal prompts.
+- [x] Replace unsupported project benchmark numbers in case-study fallback content with clearly qualified implementation facts.
+- [x] Verify 13 local README links, 9 checklist links, four poster assets, 36 CSS module classes and both new SVG structures.
+- [ ] Run lint/build and verify the deployed Studio route, mobile rendering, accessibility, performance and media licenses.
 
 ### 06 — [BCPD](https://github.com/HuLaxx/BCPD) · **Regime Shift Observatory**
 **Concept:** Statistical research notebook / changepoint timeline.
