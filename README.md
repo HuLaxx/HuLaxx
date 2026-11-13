@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://portfolio.hulax.uk/constellation" title="Explore the engineering constellation"><img src="./assets/rahul-hero.svg" width="100%" alt="Rahul Khanke — AI engineering and the project constellation" /></a>
+<a href="https://portfolio.hulax.uk/constellation" title="Explore the engineering constellation"><img src="./assets/rahul-hero.svg" width="100%" alt="Rahul Khanke — Data engineering, AI/ML and the project constellation" /></a>
 
 ### Data Engineer · AI/ML Engineering · Python & SQL
 
