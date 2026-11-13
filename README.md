@@ -2,7 +2,7 @@
 
 <a href="https://portfolio.hulax.uk/constellation" title="Explore the engineering constellation"><img src="./assets/rahul-hero.svg" width="100%" alt="Rahul Khanke — AI engineering and the project constellation" /></a>
 
-### AI Engineer · Data Scientist · Full-Stack Engineer
+### Data Engineer · AI/ML Engineering · Python & SQL
 
 <a href="https://readme-typing-svg.demolab.com">
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=3200&pause=900&color=78DDFF&center=true&vCenter=true&width=700&height=44&lines=Building+production-minded+AI+systems;Turning+complex+data+into+clear+decisions;From+data+pipelines+to+beautiful+interfaces" alt="Animated introduction" />
@@ -20,12 +20,13 @@
 
 ## 👋 About me
 
-I'm **Rahul Khanke**, a data scientist and software engineer building at the intersection of **applied AI, data engineering and thoughtful product development**. I enjoy owning the entire journey: designing the data flow, developing ML models and APIs, and translating complex results into intuitive interfaces.
+I'm **Rahul Khanke**, a **Data Engineer working across data pipelines, AI/ML applications and backend services**. My background combines enterprise software engineering at Accenture, a data engineering and ML internship at Cognizant, and an MSc in Data Science from the University of Glasgow.
 
 - 🎓 **MSc Data Science**, University of Glasgow; **B.E. Computer Science**, G.H. Raisoni College of Engineering.
 - 💼 Former **Custom Software Engineering Associate at Accenture** and **Cognizant intern**.
 - 🧠 Interested in agentic AI, RAG, time-series forecasting, graph analytics, explainable ML and streaming systems.
-- 🛠️ Working across Python, FastAPI, Kafka, SQL, TypeScript, React and Next.js.
+- 🛠️ Core focus: **Python, SQL, data pipelines and APIs**, with project work in Kafka, FastAPI, graph analytics and AI/ML integration.
+- 🔎 My case studies distinguish implemented code, optional integrations and demo data.
 - 🌐 For detailed case studies, visit [my interactive portfolio](https://portfolio.hulax.uk/).
 
 ## 🧭 Engineering approach
