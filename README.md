@@ -66,13 +66,13 @@ The connections tell the story: **streaming data → intelligent decisions → t
 <h3>🤖 <a href="https://github.com/HuLaxx/Sentinance">Sentinance</a></h3>
 <p><b>AI-powered market intelligence</b><br/>Multi-exchange market streams, LangGraph agents, retrieval-augmented insights and LSTM forecasting.</p>
 <p><code>Python</code> <code>FastAPI</code> <code>LangGraph</code> <code>PyTorch</code> <code>Next.js</code></p>
-<a href="https://github.com/HuLaxx/Sentinance">Explore source</a> · <a href="https://sentinance.vercel.app">Project website</a>
+<a href="https://github.com/HuLaxx/Sentinance">Explore source</a> · <a href="https://sentinance.hulax.uk">Project website</a>
 </td>
 <td width="50%" valign="top">
 <h3>🛡️ <a href="https://github.com/HuLaxx/GraphGuard">GraphGuard</a></h3>
 <p><b>Explainable fraud analytics</b><br/>Graph-driven fraud detection, XGBoost risk models, SHAP explainability and GraphQL-powered exploration.</p>
 <p><code>Neo4j</code> <code>XGBoost</code> <code>SHAP</code> <code>GraphQL</code> <code>Python</code></p>
-<a href="https://github.com/HuLaxx/GraphGuard">Explore source</a> · <a href="https://graph-guard-frontend.vercel.app">Project website</a>
+<a href="https://github.com/HuLaxx/GraphGuard">Explore source</a> · <a href="https://graphguard.hulax.uk">Project website</a>
 </td>
 </tr>
 <tr>
@@ -80,13 +80,13 @@ The connections tell the story: **streaming data → intelligent decisions → t
 <h3>🚚 <a href="https://github.com/HuLaxx/FleetFlow">FleetFlow</a></h3>
 <p><b>Reactive delivery optimization</b><br/>Vehicle routing with OR-Tools, live fleet visualization and event-driven logistics architecture.</p>
 <p><code>OR-Tools</code> <code>Kafka</code> <code>PostGIS</code> <code>Next.js</code> <code>Python</code></p>
-<a href="https://github.com/HuLaxx/FleetFlow">Explore source</a> · <a href="https://fleet-flow-rho.vercel.app">Project website</a>
+<a href="https://github.com/HuLaxx/FleetFlow">Explore source</a> · <a href="https://fleetflow.hulax.uk">Project website</a>
 </td>
 <td width="50%" valign="top">
 <h3>🎵 <a href="https://github.com/HuLaxx/Shiftify">Shiftify</a></h3>
 <p><b>Privacy-first music library utility</b><br/>Browser-first YouTube Music export experience with a polished responsive interface.</p>
 <p><code>TypeScript</code> <code>Next.js</code> <code>Tailwind CSS</code></p>
-<a href="https://github.com/HuLaxx/Shiftify">Explore source</a> · <a href="https://shiftifymusic.vercel.app">Project website</a>
+<a href="https://github.com/HuLaxx/Shiftify">Explore source</a> · <a href="https://shiftify.hulax.uk">Project website</a>
 </td>
 </tr>
 </table>
