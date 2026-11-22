@@ -2,14 +2,14 @@
 
 <a href="https://portfolio.hulax.uk/constellation" title="Explore the engineering constellation"><img src="./assets/rahul-hero.svg" width="100%" alt="Rahul Khanke — Data engineering, AI/ML and the project constellation" /></a>
 
-### Data Engineer · AI/ML Engineering · Python & SQL
+### Data & ML Engineer · Python · SQL · Applied AI
 
 <a href="https://readme-typing-svg.demolab.com">
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=3200&pause=900&color=78DDFF&center=true&vCenter=true&width=700&height=44&lines=Building+production-minded+AI+systems;Turning+complex+data+into+clear+decisions;From+data+pipelines+to+beautiful+interfaces" alt="Animated introduction" />
 </a>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Explore%20my%20work-172554?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio.hulax.uk/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rahul-khanke-853717218/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rahulkhanke/)
 [![Email](https://img.shields.io/badge/Email-Say%20hello-0f766e?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rahulkhanke786@gmail.com)
 
 </div>
@@ -20,10 +20,11 @@
 
 ## 👋 About me
 
-I'm **Rahul Khanke**, a **Data Engineer working across data pipelines, AI/ML applications and backend services**. My background combines enterprise software engineering at Accenture, a data engineering and ML internship at Cognizant, and an MSc in Data Science from the University of Glasgow.
+I'm **Rahul Khanke**, a **Data Engineer working across data pipelines, AI/ML applications and backend services**. My background combines data engineering for internal financial operations at Sharp Invesco Revolutions, enterprise software engineering at Accenture, a data engineering and ML internship at Cognizant, and an MSc in Data Science from the University of Glasgow.
 
 - 🎓 **MSc Data Science**, University of Glasgow; **B.E. Computer Science**, G.H. Raisoni College of Engineering.
-- 💼 Former **Custom Software Engineering Associate at Accenture** and **Cognizant intern**.
+- 💼 **Data Engineer, Sharp Invesco Revolutions (9 Dec 2024 - 6 Nov 2026)**; previously **Custom Software Engineering Associate, Accenture (Oct 2022 - Sep 2024)** and **Data Engineering & Machine Learning Intern, Cognizant (Jan - Apr 2022)**.
+- 🔧 At Sharp Invesco, supported internal financial-data processing and applied AI/ML work, including Python/SQL pipelines, feature preparation and workflow automation. Work was performed partly alongside MSc studies; claims of production scale or measured impact are excluded here pending project-specific evidence.
 - 🧠 Interested in agentic AI, RAG, time-series forecasting, graph analytics, explainable ML and streaming systems.
 - 🛠️ Core focus: **Python, SQL, data pipelines and APIs**, with project work in Kafka, FastAPI, graph analytics and AI/ML integration.
 - 🔎 My case studies distinguish implemented code, optional integrations and demo data.
@@ -136,10 +137,10 @@ The connections tell the story: **streaming data → intelligent decisions → t
 | **AI & machine learning** | Python, PyTorch, XGBoost, SHAP, LangGraph, RAG, LSTM, time-series analysis |
 | **Data & backend** | SQL, FastAPI, PostgreSQL, Neo4j, Kafka, Airflow, Redis, GraphQL |
 | **Web experiences** | Next.js, React, TypeScript, Tailwind CSS, Three.js, Framer Motion |
-| **Infrastructure** | Docker, Kubernetes, AWS, CI/CD, API design, observability |
+| **Infrastructure** | Docker, Kubernetes, CI/CD, API design, observability |
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=python,pytorch,fastapi,postgres,kafka,redis,nextjs,react,ts,tailwind,threejs,docker,aws,git&perline=7" alt="Technology icons" />
+<img src="https://skillicons.dev/icons?i=python,pytorch,fastapi,postgres,kafka,redis,nextjs,react,ts,tailwind,threejs,docker,git&perline=7" alt="Technology icons" />
 </div>
 
 
@@ -151,7 +152,7 @@ The connections tell the story: **streaming data → intelligent decisions → t
 
 Interested in **applied AI, data platforms or thoughtful digital products**?
 
-[**Portfolio**](https://portfolio.hulax.uk/) · [**LinkedIn**](https://www.linkedin.com/in/rahul-khanke-853717218/) · [**Email**](mailto:rahulkhanke786@gmail.com)
+[**Portfolio**](https://portfolio.hulax.uk/) · [**LinkedIn**](https://www.linkedin.com/in/rahulkhanke/) · [**Email**](mailto:rahulkhanke786@gmail.com)
 
 <sub>Made with curiosity, code and attention to detail.</sub>
 
