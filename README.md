@@ -149,7 +149,7 @@ The connections tell the story: **streaming data → intelligent decisions → t
 
 Every skill below links to the code that uses it, with a status that says how far it is proven. Project benchmarks run on **synthetic data in CI**; they are not production figures.
 
-**Used professionally:** Python, SQL and data pipelines throughout; Azure at Accenture; AWS and Databricks/Snowflake in my data engineering roles. Details are on [LinkedIn](https://www.linkedin.com/in/rahulkhanke/).
+**Used professionally:** Python, SQL and data pipelines throughout; Azure at Accenture; AWS and Databricks in my data engineering roles. Details are on [LinkedIn](https://www.linkedin.com/in/rahulkhanke/).
 
 | Skill | Where it's proven | Evidence | Status |
 | --- | --- | --- | --- |
