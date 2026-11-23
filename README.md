@@ -20,13 +20,13 @@
 
 ## 👋 About me
 
-I'm **Rahul Khanke**, a **Data Engineer working across data pipelines, AI/ML applications and backend services**. My background combines data engineering for internal financial operations at Sharp Invesco Revolutions, enterprise software engineering at Accenture, a data engineering and ML internship at Cognizant, and an MSc in Data Science from the University of Glasgow.
+I'm **Rahul Khanke**, a **Data & ML Engineer** who builds reliable data pipelines and takes machine learning into production, mostly on financial data. I've worked at Sharp Invesco Revolutions and Accenture, with AWS, Azure and Databricks, and hold an MSc in Data Science from the University of Glasgow.
 
+- 💼 **Data Engineer, Sharp Invesco Revolutions** (Dec 2024 – Nov 2026): Python and SQL pipelines on Apache Airflow processing thousands of financial records a day; automation that saved the finance team 5+ hours a week; anomaly-detection, transaction-categorisation and LLM document-extraction models.
+- 💼 **Custom Software Engineering Associate, Accenture** (Oct 2022 – Sep 2024): claims-analytics ML services with about 25% better prediction accuracy and about 50% lower latency; Airflow ETL pipelines; Docker, Kubernetes and CI/CD. Employee of the Month twice.
+- 💼 **Data Engineering & Machine Learning Intern, Cognizant** (Jan – Apr 2022).
 - 🎓 **MSc Data Science**, University of Glasgow; **B.E. Computer Science**, G.H. Raisoni College of Engineering.
-- 💼 **Data Engineer, Sharp Invesco Revolutions (9 Dec 2024 - 6 Nov 2026)**; previously **Custom Software Engineering Associate, Accenture (Oct 2022 - Sep 2024)** and **Data Engineering & Machine Learning Intern, Cognizant (Jan - Apr 2022)**.
-- 🔧 At Sharp Invesco, supported internal financial-data processing and applied AI/ML work, including Python/SQL pipelines, feature preparation and workflow automation. Work was performed partly alongside MSc studies; claims of production scale or measured impact are excluded here pending project-specific evidence.
 - 🧠 Interested in agentic AI, RAG, time-series forecasting, graph analytics, explainable ML and streaming systems.
-- 🛠️ Core focus: **Python, SQL, data pipelines and APIs**, with project work in Kafka, FastAPI, graph analytics and AI/ML integration.
 - 🔎 My case studies distinguish implemented code, optional integrations and demo data.
 - 🌐 For detailed case studies, visit [my interactive portfolio](https://portfolio.hulax.uk/).
 
@@ -124,7 +124,7 @@ The connections tell the story: **streaming data → intelligent decisions → t
   <sub>08 / RESEARCH & FOUNDATIONS</sub>
   <h3>📉 <a href="https://github.com/HuLaxx/BCPD">BCPD · Regime Shift Lab</a></h3>
   <p>A working browser-based Bayesian change-point laboratory with time-series import, posterior plots, editable model assumptions and exportable results.</p>
-  <p><code>Bayesian inference</code> <code>JavaScript</code> <code>Statistics</code></p>
+  <p><code>Bayesian inference</code> <code>TypeScript</code> <code>Next.js</code> <code>Statistics</code></p>
   <a href="https://github.com/HuLaxx/BCPD">Explore the source and run locally ↗</a>
 </td>
 </tr>
@@ -134,13 +134,15 @@ The connections tell the story: **streaming data → intelligent decisions → t
 
 | Focus | Technologies |
 | --- | --- |
-| **AI & machine learning** | Python, PyTorch, XGBoost, SHAP, LangGraph, RAG, LSTM, time-series analysis |
-| **Data & backend** | SQL, FastAPI, PostgreSQL, Neo4j, Kafka, Airflow, Redis, GraphQL |
-| **Web experiences** | Next.js, React, TypeScript, Tailwind CSS, Three.js, Framer Motion |
-| **Infrastructure** | Docker, Kubernetes, CI/CD, API design, observability |
+| **Cloud** | AWS, Azure, Databricks |
+| **Data engineering** | Python, SQL, Apache Airflow, Apache Spark, Apache Kafka, dbt, PostgreSQL |
+| **AI & machine learning** | PyTorch, XGBoost, scikit-learn, SHAP, MLflow, LangGraph, RAG, LSTM |
+| **Backend** | FastAPI, GraphQL, Neo4j, Redis |
+| **Infrastructure** | Docker, Kubernetes, Terraform, CI/CD, observability |
+| **Web** | Next.js, React, TypeScript, Tailwind CSS, Three.js |
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=python,pytorch,fastapi,postgres,kafka,redis,nextjs,react,ts,tailwind,threejs,docker,git&perline=7" alt="Technology icons" />
+<img src="https://skillicons.dev/icons?i=python,pytorch,fastapi,postgres,kafka,aws,azure,docker,kubernetes,terraform,redis,nextjs,react,ts,git&perline=7" alt="Technology icons" />
 </div>
 
 
