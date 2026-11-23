@@ -145,6 +145,33 @@ The connections tell the story: **streaming data → intelligent decisions → t
 <img src="https://skillicons.dev/icons?i=python,pytorch,fastapi,postgres,kafka,aws,azure,docker,kubernetes,terraform,redis,nextjs,react,ts,git&perline=7" alt="Technology icons" />
 </div>
 
+## 🔎 Skills → proof
+
+Every skill below links to the code that uses it, with a status that says how far it is proven. Project benchmarks run on **synthetic data in CI**; they are not production figures.
+
+**Used professionally:** Python, SQL and data pipelines throughout; Azure at Accenture; AWS and Databricks/Snowflake in my data engineering roles. Details are on [LinkedIn](https://www.linkedin.com/in/rahulkhanke/).
+
+| Skill | Where it's proven | Evidence | Status |
+| --- | --- | --- | --- |
+| **Apache Spark / PySpark** | [FleetFlow lakehouse](https://github.com/HuLaxx/FleetFlow/pull/25): silver layer with strict schemas, window-based dedupe and idempotent partition overwrite | 148,506 rows in 10.6 s cold, 2.5 s idempotent re-run; 4 Spark integration tests | ✅ CI-verified |
+| **dbt (Snowflake-compatible SQL)** | [FleetFlow lakehouse](https://github.com/HuLaxx/FleetFlow/pull/25): star schema with 5 dimensions and an incremental fact table | 38/38 dbt tests pass on full build and incremental re-run; silver and gold row counts reconcile | ✅ CI-verified |
+| **Data quality & contracts** | [FleetFlow lakehouse](https://github.com/HuLaxx/FleetFlow/pull/25): contract checks, quarantine and dedupe before silver | 143k rows/s; 15 pytest tests, 83% coverage | ✅ CI-verified |
+| **Terraform (Azure)** | [FleetFlow lakehouse](https://github.com/HuLaxx/FleetFlow/pull/25): ADLS Gen2, Databricks workspace, Key Vault, Log Analytics | `terraform fmt` and `validate` pass in CI; not applied, to avoid cloud cost | ✅ Validated |
+| **CI/CD (GitHub Actions)** | [FleetFlow lakehouse](https://github.com/HuLaxx/FleetFlow/pull/25): tests, benchmarks and reconciliation posted to every PR | Results comment on each pull request | ✅ CI-verified |
+| **Apache Airflow** | [FleetFlow lakehouse](https://github.com/HuLaxx/FleetFlow/pull/25): daily DAG chaining generate → quality → Spark → dbt | DAG in code; each step is tested on its own in CI | 🟡 In code |
+| **Databricks** | [FleetFlow lakehouse](https://github.com/HuLaxx/FleetFlow/pull/25): Asset Bundle running the same Spark job | Bundle in code; not deployed | 🟡 In code |
+| **ML models & explainability** | GraphGuard: [XGBoost training](https://github.com/HuLaxx/GraphGuard/blob/main/ml/training/train_xgboost_rigorous.py) and [SHAP explanations](https://github.com/HuLaxx/GraphGuard/blob/main/ml/explainability/shap_analysis.py) for fraud scoring | Seeded evaluation (precision, recall, F1, PR-AUC) being added to CI | 🟡 In code |
+| **Graph data (Neo4j)** | GraphGuard: [transaction graph consumer](https://github.com/HuLaxx/GraphGuard/blob/main/data-eng/consumers/graph_builder.py) and graph features | Tests against a Neo4j service container being added | 🟡 In code |
+| **Streaming (Kafka / Flink)** | GraphGuard: [Kafka producer](https://github.com/HuLaxx/GraphGuard/blob/main/streaming_producer.py); Sentinance: [Kafka producer](https://github.com/HuLaxx/Sentinance/blob/main/apps/api/kafka_producer.py) and [consumer](https://github.com/HuLaxx/Sentinance/blob/main/apps/api/kafka_consumer.py); FleetFlow: [Flink stream processor](https://github.com/HuLaxx/FleetFlow/tree/main/data-engineering/flink) | Broker-backed CI tests with idempotent sinks being added | 🟡 In code |
+| **MLflow (experiment tracking)** | GraphGuard: [model training](https://github.com/HuLaxx/GraphGuard/tree/main/ml/training); Sentinance: [MLflow config](https://github.com/HuLaxx/Sentinance/blob/main/apps/ml/mlflow_config.py) | Registry and a CI gate that fails on metric regressions being added | 🟡 In code |
+| **RAG & vector search (Qdrant)** | Sentinance: [RAG service](https://github.com/HuLaxx/Sentinance/blob/main/apps/api/rag_service.py) | Retrieval-quality evaluation (recall@k) being added | 🟡 In code |
+| **LLM agents (LangGraph)** | Sentinance: [multi-agent analysis](https://github.com/HuLaxx/Sentinance/blob/main/apps/api/deep_analysis.py) | Evaluation harness with a pass rate in CI being added | 🟡 In code |
+| **Time-series & Bayesian modelling** | [BCPD](https://github.com/HuLaxx/BCPD): Bayesian change-point detection (MSc dissertation topic); Sentinance: [LSTM forecasting](https://github.com/HuLaxx/Sentinance/blob/main/apps/ml/train_lstm.py) | Precision/recall on known breaks and walk-forward backtests being added | 🟡 In code |
+| **Kubernetes** | FleetFlow: [manifests](https://github.com/HuLaxx/FleetFlow/tree/main/k8s); Sentinance: [manifests](https://github.com/HuLaxx/Sentinance/tree/main/infra/k8s) | Deployment test on a local kind cluster in CI being added | 🟡 In code |
+| **Drift & model monitoring** | GraphGuard and Sentinance | Not built yet | ⏳ Planned |
+
+<sub>✅ verified by an automated run · 🟡 in the code, automated proof in progress · ⏳ planned. This table is updated as each project improvement is merged.</sub>
+
 
 ---
 
